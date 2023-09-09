@@ -1,0 +1,27 @@
+body {
+  background-color: #85cdcb;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+#container {
+  background-color: #b6e1e0;
+  text-align: center;
+  border-radius: 22px;
+  height: 300px;
+  width: 300px;
+}
+#Profile {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #e27d60;
+}
