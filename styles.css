@@ -7,7 +7,7 @@ body {
   display: flex;
 }
 
-#container {
+#Container {
   background-color: #b6e1e0;
   text-align: center;
   border-radius: 22px;
