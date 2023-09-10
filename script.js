@@ -31,9 +31,7 @@ function getCurrentDay() {
 
   const currentDay = daysOfWeek[dayIndex];
 
-  const currentDayElement = document.querySelector(
-    '[data-testid="currentDayOfTheWeek"]'
-  );
+  const currentDayElement = document.querySelector('[id="DayOfTheWeek"]');
   currentDayElement.textContent = currentDay;
 }
 
